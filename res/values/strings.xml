@@ -33,6 +33,8 @@
     <string name="header_category_personal">PERSONAL</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">SYSTEM</string>
+    <!-- Settings main menu category heading. Anderson (Anderson settings). [CHAR LIMIT=40] -->
+    <string name="header_category_anderson">ANDERSON OPTIONS</string>
 
     <!-- Phone info -->
     <!-- Phone Info screen. Button label to turn on the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
@@ -3774,6 +3776,11 @@ found in the list of installed apps.</string>
 
     <!-- Representation of a numerical percentage. [CHAR LIMIT=8] -->
     <string name="percentage"><xliff:g id="number" example="30">%d</xliff:g>%%</string>
+   
+    <!-- Anderson settings screen heading -->
+    <string name="anderson_settings">Settings</string>
+    <!-- Pulse notificaton light color -->
+    <string name="anderson_settings_pulse_color">Pulse Notification Color</string>
 
     <!-- A menu item in "About phone" that allows the user to update the phone with settings
     from their cell phone carrier. The use of the string is similar to the string
