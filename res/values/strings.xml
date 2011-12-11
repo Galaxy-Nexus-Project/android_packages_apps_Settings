@@ -3780,7 +3780,7 @@ found in the list of installed apps.</string>
     <!-- Anderson settings screen heading -->
     <string name="anderson_settings">Settings</string>
     <!-- Pulse notificaton light color -->
-    <string name="anderson_settings_pulse_color">Pulse Notification Color</string>
+    <string name="pulse_color_title">Pulse Notification Color</string>
 
     <!-- A menu item in "About phone" that allows the user to update the phone with settings
     from their cell phone carrier. The use of the string is similar to the string
