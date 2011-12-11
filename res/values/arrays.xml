@@ -704,4 +704,22 @@
         <!-- Status message when VPN is failed. -->
         <item>Unsuccessful</item>
     </string-array>
+
+    <!-- New incoming call vibrate options. -->
+    <string-array name="pulse_color_entries">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>White</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <!-- Values for vibrate_entries matching constants in SoundSettings. Do not translate. -->
+    <string-array name="pulse_color_values" translatable="false">
+        <item>blue</item>
+        <item>green</item>
+        <item>red</item>
+        <item>white</item>
+        <item>yellow</item>
+    </string-array>
 </resources>
