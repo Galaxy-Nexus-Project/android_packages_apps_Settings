@@ -715,11 +715,16 @@
     </string-array>
 
     <!-- Values for vibrate_entries matching constants in SoundSettings. Do not translate. -->
+    <!-- Blue: -16776961 (0xff0000ff) -->
+    <!-- Green: -16711936 (0xff00ff00) -->
+    <!-- Red: -65536 (0xffff0000) -->
+    <!-- White: -1 (0xffffffff) -->
+    <!-- Yellow: -256 (0xffffff00) -->
     <string-array name="pulse_color_values" translatable="false">
-        <item>blue</item>
-        <item>green</item>
-        <item>red</item>
-        <item>white</item>
-        <item>yellow</item>
+        <item>-16776961</item>
+        <item>-16711936</item>
+        <item>-65536</item>
+        <item>-1</item>
+        <item>-256</item>
     </string-array>
 </resources>
