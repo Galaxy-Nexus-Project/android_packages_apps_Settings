@@ -1,9 +1,19 @@
 package com.android.settings;
 
+/**
+ * AndersonSettings.java - Provides a setting for ROM specific things for Anderson
+ * 
+ * Revision History:
+ * 12/12/2011 - Created initial version (termleech)
+ * 12/13/2011 - Removed debug statements (termleech)
+ **/
+
 import static android.provider.Settings.System.NOTIFICATION_PULSE_COLOR;
 import static android.provider.Settings.System.NOTIFICATION_PULSE_COLOR_FALLBACK;
 
+import android.app.ActivityManagerNative;
 import android.content.ContentResolver;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
@@ -37,12 +47,8 @@ public class AndersonSettings extends SettingsPreferenceFragment
 		final String key = preference.getKey();
 		ContentResolver resolver = getActivity().getContentResolver();
 		
-		Log.w(TAG, "Got key: " + key);
-		
 		if (KEY_PULSE_COLOR.equals(key)) {
 			int value = Integer.parseInt((String) newValue);
-			
-			Log.w(TAG, "Setting pulse color: " + value);
 			
 			try {
 				Settings.System.putInt(resolver, NOTIFICATION_PULSE_COLOR, value);
