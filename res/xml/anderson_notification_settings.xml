@@ -15,14 +15,30 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/anderson_settings"
-        android:key="anderson_settings"
+        android:title="@string/anderson_notification_settings"
+        android:key="anderson_notification_settings"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+            android:key="notification_category_pulse"
+            android:title="@string/notification_category_pulse_title" />
 
     <ListPreference
             android:key="notification_pulse_color"
             android:title="@string/pulse_color_title"
             android:entries="@array/pulse_color_entries"
             android:entryValues="@array/pulse_color_values" />
+
+    <ListPreference
+            android:key="notification_pulse_duration"
+            android:title="@string/pulse_duration_title"
+            android:entries="@array/pulse_duration_entries"
+            android:entryValues="@array/pulse_duration_values" />
+
+    <ListPreference
+            android:key="notification_pulse_frequency"
+            android:title="@string/pulse_frequency_title"
+            android:entries="@array/pulse_frequency_entries"
+            android:entryValues="@array/pulse_frequency_values" />
 
 </PreferenceScreen>
