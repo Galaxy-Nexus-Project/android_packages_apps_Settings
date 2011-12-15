@@ -3778,9 +3778,15 @@ found in the list of installed apps.</string>
     <string name="percentage"><xliff:g id="number" example="30">%d</xliff:g>%%</string>
    
     <!-- Anderson settings screen heading -->
-    <string name="anderson_settings">Settings</string>
+    <string name="anderson_notification_settings">Notification Settings</string>
+    <!-- Anderson notification settings - pulse notifications -->
+    <string name="notification_category_pulse_title">Pulse Notification</string>
     <!-- Pulse notificaton light color -->
-    <string name="pulse_color_title">Pulse Notification Color</string>
+    <string name="pulse_color_title">Pulse Color</string>
+    <!-- Pulse notificaton duration -->
+    <string name="pulse_duration_title">Pulse Duration</string>
+    <!-- Pulse notificaton light color -->
+    <string name="pulse_frequency_title">Pulse Frequency</string>
 
     <!-- A menu item in "About phone" that allows the user to update the phone with settings
     from their cell phone carrier. The use of the string is similar to the string

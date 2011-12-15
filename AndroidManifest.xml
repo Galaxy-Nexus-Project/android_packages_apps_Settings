@@ -1375,20 +1375,20 @@
                 android:resource="@id/wireless_settings" />
         </activity>
 
-        <activity android:name="Settings$AndersonSettingsActivity"
-                android:label="@string/anderson_settings"
+        <activity android:name="Settings$AndersonNotificationSettingsActivity"
+                android:label="@string/anderson_notification_settings"
                 android:clearTaskOnLaunch="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.settings.ANDERSON_SETTINGS" />
+                <action android:name="android.settings.ANDERSON_NOTIFICATION_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.AndersonSettings" />
+                android:value="com.android.settings.AndersonNotificationSettings" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/anderson_settings" />
+                android:resource="@id/anderson_notification_settings" />
         </activity>
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
