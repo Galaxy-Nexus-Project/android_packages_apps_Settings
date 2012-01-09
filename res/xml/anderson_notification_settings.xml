@@ -15,8 +15,8 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/anderson_notification_settings"
-        android:key="anderson_notification_settings"
+        android:title="@string/snakes_notification_settings"
+        android:key="snakes_notification_settings"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
